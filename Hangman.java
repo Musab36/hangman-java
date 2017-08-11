@@ -4,8 +4,8 @@ import java.util.Random;
 public class Hangman {
 	public static void main(String[] args) {
 		Scanner scanner = new Scanner(System.in); // We are gettting user inputs
-		Random random = new Random(); // We arev generating random numbers and words
-		String[] guesses = {"moringa", "phones", "cars", "house", "peace", "lake", "mountain", "forest"};
+		Random random = new Random(); // We are generating random numbers and words
+		String[] guesses = {"moringa", "phones", "cars", "house", "peace", "lake", "mountain", "forest", "love", "happiness", "programming"};
 		
 		boolean letsPlay = true;
 		while(letsPlay) {
